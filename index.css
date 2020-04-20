@@ -1,0 +1,353 @@
+
+
+body{
+    margin: 0;
+    font-family:  'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: black;
+}
+
+.haut{
+    background-image: url("./images/arriereplan.jpg");
+    box-shadow: inset 0px 0px 1000px 150px rgba(0,0,0,0.9);
+    display: block;
+    height: 700px;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+}
+
+
+.logo{
+    position: relative;
+    background: url("/images/logo.png");
+    height: auto;
+    width: 12vw;
+    margin-top: 0vh;
+    margin-left: 3vw;
+}
+
+.identification{
+    background-color: #e50914;
+    border-radius: 5px;
+    height: 5vh;
+    width: 8vw;
+    color: white;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+    font-weight: 550;
+    float: right;
+    margin-top: 3vh;
+    margin-right: 3vw;
+}
+
+.titre{
+    position: relative;
+    height: 110px;
+    width: 640px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22vh;
+    margin-bottom: 0;
+    color: white;
+    font-size: 3.125rem;
+}
+
+.soustitre{
+    position: relative;
+    height: 33px;
+    width: 640px;
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-weight: lighter;
+}
+
+.boutonmail{
+    display: flex;
+    justify-content: center;
+}
+
+.boitemail{
+    padding-left: 10px;
+    height: 60px;
+    margin-right: 0;
+    width: 428px;
+}
+
+.boitemail::placeholder{
+    margin-left: 0;
+    text-align: start;
+    font-size: 16px;
+}
+
+
+.essayer{
+    font-size: 25px;
+    margin: 0 0;
+    color: white;
+    background-color: #e50914;
+    height: 60px;
+    width: 200px;
+    border: none;
+}
+
+.essayer:hover{
+    background-color: red;
+}
+
+.soustitrebis{
+    position: relative;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    margin-top: 35px;
+}
+
+.first{
+    position: relative;
+    display: flex;
+    height: 325px;
+    width: 100%;
+    padding-bottom: 120px;
+}
+
+.firstleft{
+    position: relative;
+    width: 550px;
+    height: 235px;
+    margin-left: 130px;
+    margin-top: 100px;
+}
+
+.firstright{
+    width: auto;
+    height: auto;
+    margin-top: 0;
+    margin-left: 40px;
+}
+
+.lefttitle{
+    position: relative;
+    color: white;
+    margin: auto;
+    width: auto;
+    font-size: 3.125rem;
+    margin-bottom: 0.5rem;
+}
+
+.leftsubtitle{
+    font-size: 1.625rem;
+    font-weight: normal;
+    line-height: 2rem;
+}
+
+.video1{
+    position: relative;
+    display: block;
+    width: 387px; 
+    height: 217px;
+    margin-top: 83px;
+    margin-left: 70px;
+}
+
+.images{
+    position: absolute;
+    display: block;
+    top: 0px;
+    width: 530px;
+    height: 397px;
+}
+
+.strangerserie{
+    position: relative;
+    display: flex;
+    width: 302px;
+    height: 76px;
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 270px;
+    margin-left: 100px;
+    background-color: black;
+}
+
+.strangerserie img{
+    position: absolute;
+    display: block;
+    width: 51px;
+    height: 72px;
+}
+
+.strangerserie p{
+    position: absolute;
+    font-size: 14.4px;
+    color: #0071eb;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 65px;
+    white-space: nowrap;
+    margin-bottom: 0;
+}
+
+.strangerserie h4{
+    position: relative;
+    white-space: nowrap;
+    margin-top: 20px;
+    margin-left: 65px;
+    height: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+}
+
+.video2{
+    width: 349px;
+    height: 187px;
+    margin-top: 40px;
+    margin-left: 92px;
+}
+
+.second{
+    position: relative;
+}
+
+
+.second h2{
+    margin-top: 70px;
+    font-size: 3.125rem;
+    text-align: center;
+    color: white;
+}
+
+
+.second li{
+    display: block;
+    background-color: #303030;
+    width: 815;
+    height: 76;
+    margin: 10px auto;
+}
+
+.second p{
+    background: none;
+    margin-top: 0;
+    margin-left: 0;
+    border: none;
+    padding-top: 23px;
+    padding-left: 23px;
+    color: white;
+    font-size: 26px;
+    float: left;
+}
+
+.second input{
+    position: relative;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-top: 22px;
+    margin-right: 22px;
+}
+
+.second a{
+    position: relative;
+    display: block;
+    width: 815px;
+    height: 76;
+    background-image:url(about:blank);
+}
+
+.h3second{
+    color: white;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 40px;
+}
+
+footer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    width: 900px;
+    height: 323px;
+}
+
+
+footer a{
+    position: relative;
+    display: block;
+    font-size: 13px;
+    color: #757575;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+footer ul{
+    margin-left: -40px;
+}
+
+footer li{
+    float: left;
+    box-sizing: border-box;
+    min-width: 100px;
+    padding: 0;
+    min-width: 100px;
+    width: 25%;
+    padding-right: 12px;
+    vertical-align: top;
+}
+
+.choixlangue{
+    position: absolute;
+    display: block;
+    margin-top: 14em;
+    background-color: black;
+    color: #999;
+    padding: 15px;
+    padding-left: 50px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.choixlangue option{
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+.piedpage{
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.piedpage input{
+    height: 17px;
+    width: 17px;
+    position: absolute;
+    display: block;
+    margin-top: 13.8em;
+    color: #333333;
+    padding: 20px;
+    font-size: 16px;
+    border-radius: 2px;
+}
+
+.signature{
+    position: absolute;
+    display:block;
+    margin-top: 295px;
+    padding-bottom: 30px;
+    color: #757575;
+    font-size: 13px;
+}
